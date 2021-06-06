@@ -9,7 +9,7 @@ import Teachers from "./component/teachers"
 function App() {
   return (
     <>
-<Teachers/>
+<Signin/>
     </>
   );
 }

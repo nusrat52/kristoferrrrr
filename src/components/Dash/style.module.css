@@ -1,0 +1,61 @@
+.Roster{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+
+.Table{
+    width:80%;
+    min-height: 450px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 40px;
+    overflow: scroll;
+    padding: 1.5rem 1.7rem;
+}
+
+.Header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ClassCode{
+    width: 245px;
+    height: 35px;
+    background-color: pink;
+    display: grid;
+    place-items: center;
+    background: rgba(252, 86, 116, 0.05);
+    border: 1px solid rgba(252, 86, 116, 0.1);
+    border-radius: 12px;
+}
+
+
+.ClassCode p {
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #FC5674;;
+}
+
+
+.Buttons{
+    margin-top: 15px;
+}
+
+.Buttons button{
+    background: #3570ED;
+    border: 1px solid #3570ED;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-right: 18px;
+}

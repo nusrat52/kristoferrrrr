@@ -1,0 +1,165 @@
+.Layout{
+    background: #F7F7F7;
+}
+
+.Zero{
+    padding: 0;
+    margin: 0;
+}
+
+.Row{
+    min-height: 100vh;
+}
+
+.Sidebar{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #C4C4C4;
+}
+
+.Line{
+    padding-left:15px ;
+}
+
+.User{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img_container {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 12px;
+}
+
+.User img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.User p:first-child {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 3px 0;
+}
+
+.User p:nth-child(2){
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 3px 0;
+}
+
+.ClassCode{
+    height: 35px;
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+    margin-top: 27px;
+    display: grid;
+    place-items: center;
+    background: rgba(252, 86, 116, 0.05);
+    border: 1px solid rgba(252, 86, 116, 0.1);
+    border-radius: 12px;
+}
+
+
+.ClassCode p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #FC5674;;
+}
+
+
+.SideNavs{
+    margin-top: 4rem;
+}
+
+.SideNav{
+    display: flex;
+    height: 36px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.SideNav p {
+    margin: 0;
+}
+
+.SideNav icon{
+    flex: 2;
+    text-align: center;
+    color: #22C9F3;
+}
+
+.SideNav p{
+    flex: 5;
+    font-size: 17px;
+    border-right: 5px solid #22C9F3;
+    
+}
+
+
+.profil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 124px;
+    margin-top: 57px;
+  }
+  
+  .profil__icon {
+    background: #ff9e0080;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: white;
+    margin-right: 12px;
+  }
+  
+  .profil__profilText {
+    margin: 0;
+  }
+  
+  .profil__profil {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+  
+  .profil__room {
+      font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin:0;
+  
+  }
+  

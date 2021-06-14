@@ -1,0 +1,76 @@
+.studentLogin{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentLogin .studentBox{
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.studentLogin .studentBox .ns{
+    background: rgba(34, 201, 243, 0.5);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.studentLogin .studentBox .ns p {
+    font-weight: 500;
+}
+
+
+.studentLogin .studentBox .fullName{
+    margin-top: 23px;
+}
+
+
+.studentLogin .studentBox .fullName p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.studentLogin .studentBox .changeStuBtn{
+    background: #0830F7;
+    border-radius: 8px;
+    color: white;
+    padding: 3px 25px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.studentLogin .studentBox form {
+    margin-top: 35px;
+    display: flex;
+    align-items: center
+}
+
+.studentLogin .studentBox form input{
+    height: 38px;
+    padding: 10px;
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.studentLogin .studentBox form button{
+    background: #0830F7;
+}

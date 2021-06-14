@@ -1,0 +1,179 @@
+.header{
+    font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #000000;
+margin-bottom: 13px;
+margin-top: 69px;
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+
+
+.text{
+    font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #6A6A6A;
+margin-bottom: 68px;
+}
+
+.assignment{
+    width: 347px;
+    height: 373px;
+    background: #FFFFFF;
+padding: 13px;
+border-radius: 12px;
+cursor: pointer;
+}
+
+.assignment__pic{
+background: #C4C4C4;
+border-radius: 12px;
+
+height: 228px;
+width: 322px;
+border-radius: 12px;
+
+}
+
+.assignment__text{
+    color: #6A6A6A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-left: 5px;
+
+}
+.assignment__basliq{
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #000000;
+    margin-top: 14px;
+    margin-left: 5px;
+
+}
+
+.assignments{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.studentSecond{
+    display: flex;
+}
+
+.lessons{
+    width:-webkit-fill-available;
+    padding-left: 60px;
+}
+
+.lesson{
+    background: #FFFFFF;
+height: 72px;
+width: 100%;
+display: flex;
+align-items: center;
+padding-right: 17px;
+border-radius: 12px;
+cursor: pointer;
+margin-bottom: 12px;
+}
+
+.lesson__iconWrapper{
+    border: 1px solid #10C16E;
+    height: 34px;
+width: 34px;
+
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 18px;
+margin-left: 18px;
+}
+
+.lesson__iconWrapper_active{
+    background-color:#10C16E ;
+
+
+
+}
+
+.lesson__header{
+    font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.015em;
+text-align: left;
+margin-right: 23px;
+white-space: nowrap;
+}
+
+.lesson__text{
+    font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #6A6A6A;
+
+}
+
+.lesson__iconWrapper__none{
+    background: #C4C4C4;
+    height: 34px;
+    width: 34px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    margin-left: 18px;
+
+}
+
+.lesson__iconWrapper__none svg{
+    display: none;
+}
+
+.lesson__header_disabled{
+    color: #B1B1B1;
+
+}
+
+.lesson__text_disabled{
+    color: #B1B1B1;
+
+}
